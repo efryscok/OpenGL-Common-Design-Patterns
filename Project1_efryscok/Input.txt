@@ -1,0 +1,5 @@
+Mesh	Scale	X	Y	Z	Rotation_X	Rotation_Y	Rotation_Z	Physics	Wireframe
+OpenTree.ply	10	0	0	0	0	0	0	0	0
+PyramidTree.ply	2.5	10	0	0	0	0	0	0	0
+RoundTree.ply	7.5	-10	0	0	0	0	0	0	0
+OvalTree.ply	5	5	0	10	0	0	0	0	0

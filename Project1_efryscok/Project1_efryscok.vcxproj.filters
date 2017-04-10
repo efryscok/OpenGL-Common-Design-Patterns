@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="FruitFactory">
+      <UniqueIdentifier>{f3337b59-ab66-4120-a9d3-3e2214270840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FruitFactory\Fruits">
+      <UniqueIdentifier>{0af31623-4a93-409e-bd2a-3fcf6ee86aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeFactory">
+      <UniqueIdentifier>{eea5a2ee-b355-45aa-8d63-171429f3d870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeFactory\Trees">
+      <UniqueIdentifier>{4e1e8112-347d-44da-8f1a-a998d4343f28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CShaderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fruitfactory\fruits\COrangeFruit.cpp">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="fruitfactory\fruits\CRedFruit.cpp">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="fruitfactory\fruits\CYellowFruit.cpp">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="fruitfactory\CFruitFactory.cpp">
+      <Filter>FruitFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="fruitfactory\CFruitFactoryImp.cpp">
+      <Filter>FruitFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="treefactory\CTreeFactory.cpp">
+      <Filter>TreeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="treefactory\CTreeFactoryImp.cpp">
+      <Filter>TreeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="treefactory\trees\COvalTree.cpp">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="treefactory\trees\CPyramidTree.cpp">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="treefactory\trees\CRoundTree.cpp">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="fruitfactory\fruits\CGreenFruit.cpp">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="treefactory\trees\COpenTree.cpp">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fruitfactory\fruits\COrangeFruit.h">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="fruitfactory\fruits\CRedFruit.h">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="fruitfactory\fruits\CYellowFruit.h">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="fruitfactory\fruits\IFruit.h">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="fruitfactory\CFruitFactory.h">
+      <Filter>FruitFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="fruitfactory\CFruitFactoryImp.h">
+      <Filter>FruitFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="treefactory\CTreeFactory.h">
+      <Filter>TreeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="treefactory\CTreeFactoryImp.h">
+      <Filter>TreeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="treefactory\trees\COvalTree.h">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="treefactory\trees\CPyramidTree.h">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="treefactory\trees\CRoundTree.h">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="treefactory\trees\ITree.h">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="treefactory\trees\ITreeAttachFruit.h">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="fruitfactory\fruits\CGreenFruit.h">
+      <Filter>FruitFactory\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="treefactory\trees\COpenTree.h">
+      <Filter>TreeFactory\Trees</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Input.txt" />
+  </ItemGroup>
+</Project>
