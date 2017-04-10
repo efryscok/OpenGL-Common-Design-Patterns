@@ -1,6 +1,8 @@
 # OpenGL-Common-Design-Patterns
 Using OpenGL to demonstrate the use of common design patterns such as Abstract Factory, Builder, Singleton, and Pointer to Implementation (PIMPL)
 
+Demonstration video can be found on YouTube: https://youtu.be/7zW3wagCDuI
+
 Controls:
 
 W - Move camera forward
